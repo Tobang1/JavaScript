@@ -18,21 +18,27 @@ addsomething (5,2);
 // compund operator make you combine = sign and other operator eg +=, -=.
 //increamental operator increase it by one ++, decrementis --,.
 // precedence operators is like BODMAS
-var number1 = 7;
-var number2 = 2;
-
-//var result = number1+number2;
-number1 += number2;
-document.write (number1);
 
 //Coditions
 
-var a = 1;
-var b = 2;
+var a = 4;
+var b = 5;
 
 var result = (a+b);
-if (result <=3) {
-    document.write ( result)
+
+if (result <= 7){
+    document.write(result);
+}
+else if (result >=12){
+
+    document.write (result);
+}
+else if (result >= 20){
+    document.write (result);
+    
 }
 
+else{
+    document.write("please try again");
+}
 
