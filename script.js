@@ -57,7 +57,7 @@ for loop
 
 for ( var z = 2; z < 10; z++ ){
         document.write ("hey "); 
-}*/
+}/
 
 // Functions & IF
 
@@ -77,4 +77,18 @@ else if (force = 30){
 
 
 }
-kicking ("love" , 30);
+kicking ("love" , 30);*/
+
+function pound( A ){
+
+
+
+while (A < 10){
+    document.write("good ");
+    A ++;
+}
+
+
+}
+pound ( 2 );
+    
