@@ -77,7 +77,7 @@ else if (force = 30){
 
 
 }
-kicking ("love" , 30);*/
+kicking ("love" , 30);
 
 function pound( A ){
 
@@ -91,4 +91,37 @@ while (A < 10){
 
 }
 pound ( 2 );
-    
+
+//RETURN
+
+function add(a,b){
+
+    result = a+b;
+    return result;
+ 
+}
+add(2,3);
+document.write(result);
+
+
+//Objects
+
+var Laptop = {
+    color: "green",
+    ram : 16,
+    speed : 200,
+    model : function(){
+
+document.write("the best laptop")
+}
+
+
+};
+
+Laptop.model();*/
+
+var greetings = ("hello how are you");
+
+    greetings = greetings.bold();
+
+document.write (greetings);
