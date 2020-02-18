@@ -1,4 +1,4 @@
-// functions review
+/* functions review
 // pass data into the ( but dont include var)
 // variables goes into the curly braces {}
 // you call your function after the braces.
@@ -42,3 +42,19 @@ else{
     document.write("please try again");
 }
 
+//LOOP
+/while
+
+var z = 2;
+
+while (z < 10){
+    document.write ("hello "); //(this keeps running, then to stop you need an  increamental).
+    z++;
+} */
+
+
+//for loop
+
+for ( var z = 2; z < 10; z++ ){
+        document.write ("hey "); 
+}
