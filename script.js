@@ -43,18 +43,38 @@ else{
 }
 
 //LOOP
-/while
+while
 
 var z = 2;
 
 while (z < 10){
     document.write ("hello "); //(this keeps running, then to stop you need an  increamental).
     z++;
-} */
+} 
 
 
-//for loop
+for loop
 
 for ( var z = 2; z < 10; z++ ){
         document.write ("hey "); 
+}*/
+
+// Functions & IF
+
+function kicking (name, force) {
+   
+    if (force <= 20){
+        document.write(name + " scored the goal");
 }
+else if (force = 30){
+
+    document.write(name + " much force was used")
+}
+
+    else {
+        document.write("none");
+    }
+
+
+}
+kicking ("love" , 30);
