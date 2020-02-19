@@ -118,10 +118,18 @@ document.write("the best laptop")
 
 };
 
-Laptop.model();*/
+Laptop.model();
 
+//string object
 var greetings = ("hello how are you");
 
     greetings = greetings.bold();
 
-document.write (greetings);
+document.write (greetings);*/
+
+
+//datetime
+var todayDate = new Date();
+
+todayDate.setHours(2,59,20,20,);
+document.write(todayDate);
