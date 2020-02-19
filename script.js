@@ -125,11 +125,29 @@ var greetings = ("hello how are you");
 
     greetings = greetings.bold();
 
-document.write (greetings);*/
+document.write (greetings);
 
 
 //datetime
 var todayDate = new Date();
 
 todayDate.setHours(2,59,20,20,);
-document.write(todayDate);
+document.write(todayDate);*/
+
+function touch(){
+    var text = document.getElementById ("test").style.color = "red";
+    var a= 2;
+    var b = 3;
+    var c = (a+b);
+    if (c<=4){
+        document.write("you getting there");
+
+    }
+    else if (c ==5){
+        document.write("thats your final answer");
+
+    }
+    else {
+        document.write("please try again");
+    }
+}
